@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./index.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&display=swap"
+    />
+  </head>
+  <body>
+    <div id="page-wrap">
+      <div class="desktop-10">
+        <footer class="footer">
+          <div class="content">
+            <p class="privacy-policy">Privacy Policy</p>
+            <p class="privacy-policy">Terms & Conditions</p>
+          </div>
+          <p class="all-copyrights-reserved">All Copyrights Reserved by BF</p>
+        </footer>
+        <div class="contact" data-scroll-to="contact">
+          <h1 class="contact-us">Contact Us</h1>
+          <p class="have-any-questions">
+            Have any questions? Get in touch with us
+          </p>
+          <div class="social-links">
+            <a class="icons-email" href="mailto:businessforumglobal@gmail.com"
+              ><img class="vector-icon" alt="" /><img
+                class="vector-icon1"
+                alt=""
+                src="public/vector.svg" /></a
+            ><a class="icons-linkedin" id="iconsLinkedin"
+              ><img class="vector-icon" alt="" /><img
+                class="vector-icon3"
+                alt=""
+                src="public/vector1.svg" /></a
+            ><a class="icons-instagram" id="iconsInstagram"
+              ><img class="vector-icon" alt="" /><img
+                class="vector-icon5"
+                alt=""
+                src="public/vector2.svg"
+            /></a>
+          </div>
+        </div>
+        <div class="interested-in-joining-us">
+          <div class="title-descp">
+            <h1 class="interested-in-participating">
+              Interested in Participating next?
+            </h1>
+            <p class="join-the-next">Join the next event by contacting us.</p>
+          </div>
+        </div>
+        <div class="hero">
+          <div class="title-descp1">
+            <h1 class="business-forum">Business Forum</h1>
+            <p class="join-the-next">
+              The Business Forum is a platform for cooperation and open dialogue.
+              Building a network of business leaders to drive finance, investment,
+              trade, and innovation.
+            </p>
+          </div>
+          <div class="projects">
+            <div class="projects-parent">
+              <h2 class="projects1">Projects</h2>
+              <div class="group-parent">
+                <div class="group-container">
+                  <div class="logo-parent">
+                    <img class="logo-icon" alt="" src="public/logo@2x.png" /><img
+                      class="logo-icon1"
+                      alt=""
+                      src="public/logo1@2x.png"
+                    />
+                  </div>
+                  <p class="brics-alliance-business">
+                    BRICS Alliance Business Forum
+                  </p>
+                </div>
+                <img
+                  class="frame-child"
+                  alt=""
+                  src="public/rectangle-56@2x.png"
+                />
+              </div>
+            </div>
+            <div class="projects-parent">
+              <h2 class="in-progress">In Progress</h2>
+              <div class="gcc-business-forum-wtc-busines-parent">
+                <p class="gcc-business-forum-container">
+                  <span class="gcc-business-forum">GCC Business Forum</span
+                  ><span class="gcc-business-forum">WTC Business Forum</span
+                  ><span class="gcc-business-forum"
+                    >East Africa Business Forum</span
+                  >
+                </p>
+                <img
+                  class="group-child"
+                  alt=""
+                  src="public/rectangle-57@2x.png"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <header class="header">
+          <img
+            class="logo-icon2"
+            alt=""
+            src="public/logo2@2x.png"
+            id="logoImage2"
+          />
+          <div class="right">
+            <button class="button" id="button">
+              <p class="home" id="home">Home</p></button
+            ><button class="button" id="button1">
+              <p class="contact1" id="contact1">Contact</p>
+            </button>
+          </div>
+        </header>
+      </div>
+
+      <script>
+        var iconsLinkedin = document.getElementById("iconsLinkedin");
+        if (iconsLinkedin) {
+          iconsLinkedin.addEventListener("click", function () {
+            window.open(
+              "https://www.linkedin.com/company/bricsalliancebusinessforum/posts/?feedView=all"
+            );
+          });
+        }
+        
+        var iconsInstagram = document.getElementById("iconsInstagram");
+        if (iconsInstagram) {
+          iconsInstagram.addEventListener("click", function () {
+            window.open("https://www.instagram.com/babusinessforum2018/");
+          });
+        }
+        
+        var logoImage2 = document.getElementById("logoImage2");
+        if (logoImage2) {
+          logoImage2.addEventListener("click", function () {
+            window.location.href = "www.businessforum.global";
+          });
+        }
+        
+        var home = document.getElementById("home");
+        if (home) {
+          home.addEventListener("click", function () {
+            window.open("https://www.businessforum.global/");
+          });
+        }
+        
+        var button = document.getElementById("button");
+        if (button) {
+          button.addEventListener("click", function () {
+            window.location.href = "https://www.businessforum.global/";
+          });
+        }
+        
+        var contact1 = document.getElementById("contact1");
+        if (contact1) {
+          contact1.addEventListener("click", function () {
+            var anchor = document.querySelector("[data-scroll-to='contact']");
+            if (anchor) {
+              anchor.scrollIntoView({ block: "start", behavior: "smooth" });
+            }
+          });
+        }
+        
+        var button1 = document.getElementById("button1");
+        if (button1) {
+          button1.addEventListener("click", function () {
+            var anchor = document.querySelector("[data-scroll-to='contact']");
+            if (anchor) {
+              anchor.scrollIntoView({ block: "start", behavior: "smooth" });
+            }
+          });
+        }
+      </script>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,31 @@
+:root {
+  /* fonts */
+  --xxl-bold: Spartan;
+  --poppins-s-regular: Poppins;
+
+  /* font sizes */
+  --poppins-s-regular-size: 14px;
+  --font-size-sm: 15px;
+  --base-regular-size: 16px;
+  --l-bold-size: 26px;
+  --xxl-bold-size: 40px;
+
+  /* Colors */
+  --mono-white: #fff;
+  --mono-black: #000;
+  --mono-02: #4f4f4f;
+  --mono-06: #f2f2f2;
+
+  /* Gaps */
+  --gap-sm: 20px;
+  --gap-md: 26px;
+
+  /* Paddings */
+  --padding-sm: 16px;
+  --padding-md: 33px;
+  --padding-lg: 40px;
+
+  /* border radiuses */
+  --br-sm: 8px;
+  --br-md: 800px;
+}
